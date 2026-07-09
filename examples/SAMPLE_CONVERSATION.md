@@ -1,4 +1,4 @@
-# Sample Conversation – Virtual Office Lead
+# Sample Conversation – 5SOffice Virtual Office Lead
 
 ## Scenario
 
@@ -10,7 +10,7 @@ A website visitor asks about using a virtual office address for company registra
 I want to register a company. Can I use your virtual office address?
 
 **AI:**  
-Yes, our virtual office service can support business address needs. To advise correctly, may I ask which city you plan to register in and when you expect to complete the registration?
+Yes, our virtual office service 5SOffice can support business address needs. To advise correctly, may I ask which city you plan to register in and when you expect to complete the registration?
 
 **Customer:**  
 Ho Chi Minh City. I need it next week.
