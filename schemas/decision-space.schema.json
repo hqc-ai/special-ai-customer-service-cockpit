@@ -1,0 +1,75 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Decision Space State",
+  "type": "object",
+  "properties": {
+    "conversation_id": {
+      "type": "string"
+    },
+    "customer_intent": {
+      "type": "string"
+    },
+    "lead_stage": {
+      "type": "string",
+      "enum": [
+        "visitor",
+        "interested",
+        "qualified",
+        "high_intent",
+        "ready_to_book",
+        "needs_human",
+        "not_relevant",
+        "unknown"
+      ]
+    },
+    "urgency": {
+      "type": "string",
+      "enum": [
+        "low",
+        "medium",
+        "high",
+        "unknown"
+      ]
+    },
+    "service_fit": {
+      "type": "string"
+    },
+    "missing_information": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "confidence": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 1
+    },
+    "risk_flags": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "next_best_action": {
+      "type": "string"
+    },
+    "admin_intervention": {
+      "type": "string",
+      "enum": [
+        "none",
+        "optional",
+        "recommended",
+        "required"
+      ]
+    }
+  },
+  "required": [
+    "conversation_id",
+    "customer_intent",
+    "lead_stage",
+    "confidence",
+    "next_best_action",
+    "admin_intervention"
+  ]
+}
