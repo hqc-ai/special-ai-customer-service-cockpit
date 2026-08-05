@@ -2,6 +2,44 @@
 
 > A concept architecture for an AI-assisted customer-service cockpit where human admins can observe, guide, and intervene in AI customer conversations through a visible decision-space layer.
 
+
+---
+
+## ❤️ Support This Project
+
+This repository is shared publicly to provide practical value to the AI, governance, consulting, and developer communities. Researching, documenting, reviewing, and maintaining these resources requires professional time and ongoing development effort.
+
+**If this repository creates value for your work, please consider supporting its continued development.**
+
+### Bank transfer — Vietnam
+
+- **Bank:** Shinhan Bank Vietnam
+- **Account holder:** NGUYEN DANG QUANG
+- **Account number:** `0944659937`
+- **Transfer reference:** `DONATE HQC`
+
+<p align="center">
+  <img src="assets/donate/bank-qr.jpg" alt="HQC bank transfer donation QR code" width="300">
+</p>
+
+### USDT — TRC20
+
+- **Asset:** USDT
+- **Network:** TRON — TRC20
+- **Address:** `TPNDgQnemyVjjhAuwSPSJz37BCaQrUkaj9`
+
+<p align="center">
+  <img src="assets/donate/usdt-qr-trx.jpg" alt="HQC USDT TRC20 donation QR code" width="300">
+</p>
+
+> Verify the receiving address and blockchain network carefully before transferring. Cryptocurrency transactions are generally irreversible.
+
+Your support helps maintain the public edition, improve documentation, develop practical examples, and continue sharing useful resources.
+
+**Sharing knowledge creates value. Supporting the project helps that value continue.**
+
+Donations are voluntary and do not purchase consulting, certification, training, technical support, or guaranteed feature development.
+
 ## 1. Project Vision
 
 This project explores a future phase of AI customer service for service-based businesses, especially businesses that need to convert website visitors into qualified leads, bookings, deposits, or orders.

@@ -1,0 +1,15 @@
+DONATE UPDATE — special-ai-customer-service-cockpit
+
+Commit these files to the repository root:
+- README.md
+- SUPPORT.md
+- .github/FUNDING.yml
+- assets/donate/bank-qr.jpg
+- assets/donate/usdt-qr-trx.jpg
+
+The README keeps the repository's existing content and inserts the donation section near the top.
+
+Suggested commit message:
+docs: show donation options in README
+
+No BTC/BSC option is included because the existing QR is for BTC deposited through the BSC network, which could be misunderstood as native Bitcoin.
