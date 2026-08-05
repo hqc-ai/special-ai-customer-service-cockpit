@@ -1,0 +1,12 @@
+task_id: DEMO-TASK-001
+agent_id: COMMUNITY_SUPPORT_01
+objective: Prepare a draft answer for a synthetic support request
+success_criteria:
+  - Relevant public knowledge references are attached
+  - No message is sent automatically
+  - A human approval request is created
+budget:
+  max_minutes: 10
+  max_retries: 1
+status: requested
+evidence_refs: []

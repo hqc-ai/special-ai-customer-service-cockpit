@@ -1,0 +1,71 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Community Agent Task Envelope",
+  "type": "object",
+  "required": [
+    "task_id",
+    "agent_id",
+    "objective",
+    "success_criteria",
+    "budget",
+    "status"
+  ],
+  "properties": {
+    "task_id": {
+      "type": "string"
+    },
+    "agent_id": {
+      "type": "string"
+    },
+    "objective": {
+      "type": "string"
+    },
+    "success_criteria": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "minItems": 1
+    },
+    "budget": {
+      "type": "object",
+      "properties": {
+        "max_minutes": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "max_retries": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 5
+        }
+      },
+      "required": [
+        "max_minutes",
+        "max_retries"
+      ],
+      "additionalProperties": false
+    },
+    "status": {
+      "enum": [
+        "requested",
+        "validated",
+        "planned",
+        "running",
+        "checkpointed",
+        "awaiting_approval",
+        "verifying",
+        "completed",
+        "failed",
+        "cancelled"
+      ]
+    },
+    "evidence_refs": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "additionalProperties": false
+}

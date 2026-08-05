@@ -1,0 +1,12 @@
+agent_id: COMMUNITY_SUPPORT_01
+name: Community Support Agent
+purpose: Demonstrate bounded support-case triage using synthetic data
+owner: Demo Workspace Owner
+status: draft
+risk_tier: low
+approval_required: true
+allowed_tools:
+  - synthetic_knowledge_search
+  - create_draft_response
+  - request_human_approval
+review_due: 2026-12-31

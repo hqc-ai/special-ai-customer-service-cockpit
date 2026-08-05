@@ -1,0 +1,62 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Community Agent Registry Record",
+  "type": "object",
+  "required": [
+    "agent_id",
+    "name",
+    "purpose",
+    "owner",
+    "status",
+    "risk_tier"
+  ],
+  "properties": {
+    "agent_id": {
+      "type": "string",
+      "pattern": "^[A-Z0-9_-]{3,64}$"
+    },
+    "name": {
+      "type": "string",
+      "maxLength": 120
+    },
+    "purpose": {
+      "type": "string",
+      "maxLength": 500
+    },
+    "owner": {
+      "type": "string",
+      "maxLength": 120
+    },
+    "status": {
+      "enum": [
+        "draft",
+        "approved",
+        "active",
+        "suspended",
+        "retired"
+      ]
+    },
+    "risk_tier": {
+      "enum": [
+        "low",
+        "medium",
+        "high",
+        "critical"
+      ]
+    },
+    "allowed_tools": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "approval_required": {
+      "type": "boolean"
+    },
+    "review_due": {
+      "type": "string",
+      "format": "date"
+    }
+  },
+  "additionalProperties": false
+}
