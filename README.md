@@ -16,7 +16,7 @@ This repository is shared publicly to provide practical value to the AI, governa
 - **Bank:** Shinhan Bank Vietnam
 - **Account holder:** NGUYEN DANG QUANG
 - **Account number:** `0944659937`
-- **SWIFT/BIC: `SHBKVNVX`
+- SWIFT/BIC: `SHBKVNVX`
 - **Transfer reference:** `DONATE HQC`
 
 <p align="center">
